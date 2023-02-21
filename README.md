@@ -30,30 +30,10 @@ The dataset consists of 2357 images of malignant and benign oncological diseases
 - Squamous cell carcinoma
 - Vascular lesion
 
-## Conclusions
-
-## Conclusion :
-
-- The optimal lambda value in case of Ridge and Lasso is as below:
-    - Ridge - 10
-    - Lasso - 0.0004
-    
-- The Mean Squared error in case of Ridge and Lasso are:
-    - Ridge - 0.01361
-    - Lasso - 0.01332
-
-- The Mean Squared Error of Lasso is slightly lower than that of Ridge
-
-- Also, since Lasso helps in feature reduction (as the coefficient value of one of the feature became 0), Lasso has a better edge over Ridge.
-  
-- Hence based on Lasso, the factors that generally affect the price are the Zoning classification, Living area square feet, Overall quality and condition of the house, Foundation type of the house, Number of cars that can be accomodated in the garage, Total basement area in square feet and the Basement finished square feet area 
-    
-Therefore, the variables predicted by Lasso in the above bar chart as significant variables for predicting the price of a house.
-
 ## Technologies Used
 
-- jupyter_client - 7.3.5
-- tensorFlow v2. 11.0
+- Google Colab
+- tensorFlow v2.11.0
 
 ## Contact
 Created by [puspanjalis](https://github.com/puspanjalis) - feel free to contact me!
